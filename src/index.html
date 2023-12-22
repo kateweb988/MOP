@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>Prosto Mop</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<h2 style="text-align: center; margin: 40px auto; color: black">
+		Pages
+	</h2>
+	<ul class="mm" style="display: flex; max-width: 800px; margin: 0 auto 50px; flex-wrap: wrap;">
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="main.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Главная</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="news.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Новости</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="news-item.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Новость</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="contacts.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Контакты</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="about.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">О компании</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="terms.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Условия</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="pay.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Доставка</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="card.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Карточка</a>
+		</li>
+		<li style="width: 25%; margin: 40px auto 0;">
+			<a href="catalog.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Каталог</a>
+		</li>
+	</ul>
+	<div class="d-flex"
+		style="justify-content: center; margin-top: 80px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap;">
+		<a href="#" class="btn btn_1 a1" style="margin: 20px;">
+			Узнать цену товара
+		</a>
+		<a href="#" class="btn btn_2 a2" style="margin: 20px;">
+			Заказ товаров
+		</a>
+	</div>
+	<div class="popup__bg2" id="popup2">
+		<div class="popup2">
+			<img src="/img/close.svg" alt="" class="close-popup2">
+			<div class="popup__wrap">
+				<p class="popup__title">
+					Узнать цену товара
+				</p>
+				<div class="popup__block q">
+					<img src="/img/item1.png" alt="" class="popup__pic">
+					<p class="popup__text">
+						Швабра 70-130см DE'NASTIA ручка
+						телескоп золотой сталь/микрофибра
+					</p>
+				</div>
+				<form action="success.php" class="popup__form js-form">
+					<div class="popup__el">
+						<label>
+							Имя
+						</label>
+						<input type="text" name="name" placeholder="Введите Ваше имя" class="form__field">
+					</div>
+					<div class="popup__el">
+						<label>
+							Телефон
+						</label>
+						<input type="tel" name="tel" placeholder="+7 (___) ___ - __ - __" class="tel form__field">
+					</div>
+					<div class="popup__el">
+						<label>
+							E-mail
+						</label>
+						<input type="email" name="email" placeholder="Введите Ваш e-mail" class="form__field">
+					</div>
+					<div class="popup__el">
+						<label>
+							Сообщение
+						</label>
+						<textarea name="text" placeholder="Введите комментарий к заявке"></textarea>
+					</div>
+					<button class="popup__btn btn" data-submit>
+						Узнать цену
+					</button>
+					<p class="popup__terms">
+						Нажимая на кнопку «Отправить» Вы подтверждаете, что ознакомились
+						с <a href="#" target="blank">Политикой конфиденциальности</a> и согласны на обработку
+						персональных данных
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="popup__bg3" id="popup3">
+		<div class="popup3">
+			<img src="/img/close.svg" alt="" class="close-popup3">
+			<div class="popup__wrap">
+				<p class="popup__title">
+					Узнать цену товара
+				</p>
+				<div class="popup__block q">
+					<div class="popup__left q">
+						<img src="/img/item1.png" alt="" class="popup__pic">
+						<p class="popup__text">
+							Швабра 70-130см DE'NASTIA ручка
+							телескоп золотой сталь/микрофибра
+						</p>
+					</div>
+					<div class="popup__right q">
+						<div class="popup__row q">
+							<div id="incdec" class="q">
+								<div id="down">
+									<img src="/img/bottom.svg" class="svg">
+								</div>
+								<input type="number" value="1">
+								<div id="up">
+									<img src="/img/up.svg" class="svg">
+								</div>
+							</div>
+						</div>
+						<a href="#" class="popup__close">
+							<img src="/img/delete.svg" alt="" class="svg">
+						</a>
+					</div>
+				</div>
+				<div class="popup__block q">
+					<div class="popup__left q">
+						<img src="/img/item2.png" alt="" class="popup__pic">
+						<p class="popup__text">
+							Швабра 70-130см DE'NASTIA ручка
+							телескоп золотой сталь/микрофибра
+						</p>
+					</div>
+					<div class="popup__right q">
+						<div class="popup__row q">
+							<div id="incdec2" class="q">
+								<div id="down2">
+									<img src="/img/bottom.svg" class="svg">
+								</div>
+								<input type="number" value="1">
+								<div id="up2">
+									<img src="/img/up.svg" class="svg">
+								</div>
+							</div>
+						</div>
+						<a href="#" class="popup__close">
+							<img src="/img/delete.svg" alt="" class="svg">
+						</a>
+					</div>
+				</div>
+				<div class="popup__block q">
+					<div class="popup__left q">
+						<img src="/img/item3.png" alt="" class="popup__pic">
+						<p class="popup__text">
+							Швабра 70-130см DE'NASTIA ручка
+							телескоп золотой сталь/микрофибра
+						</p>
+					</div>
+					<div class="popup__right q">
+						<div class="popup__row q">
+							<div id="incdec3" class="q">
+								<div id="down3">
+									<img src="/img/bottom.svg" class="svg">
+								</div>
+								<input type="number" value="1">
+								<div id="up3">
+									<img src="/img/up.svg" class="svg">
+								</div>
+							</div>
+						</div>
+						<a href="#" class="popup__close">
+							<img src="/img/delete.svg" alt="" class="svg">
+						</a>
+					</div>
+				</div>
+				<form action="success.php" class="popup__form js-form">
+					<div class="popup__line q">
+						<div class="popup-form__left">
+							<div class="popup__el">
+								<label>
+									Имя
+								</label>
+								<input type="text" name="name" placeholder="Введите Ваше имя" class="form__field">
+							</div>
+							<div class="popup__el">
+								<label>
+									Название компании
+								</label>
+								<input type="text" name="name2" placeholder="Введите название компании" class="form__field">
+							</div>
+							<div class="popup__el">
+								<label>
+									Телефон
+								</label>
+								<input type="tel" name="tel" placeholder="+7 (___) ___ - __ - __" class="tel form__field">
+							</div>
+							<div class="popup__el">
+								<label>
+									E-mail
+								</label>
+								<input type="email" name="email" placeholder="Введите Ваш e-mail" class="form__field">
+							</div>
+						</div>
+						<div class="popup__el popup__el_big">
+							<label>
+								Сообщение
+							</label>
+							<textarea name="text" placeholder="Введите комментарий к заявке"></textarea>
+						</div>
+					</div>
+					<div class="popup__el">
+						<label>
+							Загрузить документы
+						</label>
+						<div class="dada">
+							<label for="myfile" class="chous">
+								<img src="css/img/add.svg" alt="" class="svg">
+								<p>
+									Загрузите Ваши реквизиты
+								</p>
+							</label>
+							<input type="file" class="my" id="myfile" name="myfile" multiple="multiple" />
+						</div>
+					</div>
+					<div class="popup__links q">
+						<button class="popup__btn btn" data-submit>
+							Заказать товары
+						</button>
+						<a href="#" class="popup__exit btn btn_2">
+							Продолжить покупки
+						</a>
+					</div>
+					<p class="popup__terms">
+						Нажимая на кнопку «Отправить» Вы подтверждаете, что ознакомились
+						с <a href="#" target="blank">Политикой конфиденциальности</a> и согласны на обработку
+						персональных данных
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+	<script src="js/all.js"></script>
+</body>
+
+</html>
