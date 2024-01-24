@@ -619,7 +619,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //popup2
   let popupBg2 = document.querySelector('.popup__bg2');
   let popup2 = document.querySelector('.popup2');
-  let openPopupButtons2 = document.querySelectorAll('.a1');
+  let openPopupButtons2 = document.querySelectorAll('.a1, .pop__links .card__link');
   let closePopupButton2 = document.querySelector('.close-popup2');
 
   openPopupButtons2.forEach((button) => {
@@ -653,7 +653,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //popup3
   let popupBg3 = document.querySelector('.popup__bg3');
   let popup3 = document.querySelector('.popup3');
-  let openPopupButtons3 = document.querySelectorAll('.a2');
+  let openPopupButtons3 = document.querySelectorAll('.a2, .pop__links .card__btn');
   let closePopupButton3 = document.querySelector('.close-popup3');
 
   openPopupButtons3.forEach((button) => {
